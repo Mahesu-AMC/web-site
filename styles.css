@@ -188,8 +188,8 @@ img {
   color: var(--second-color);
   font-weight: var(--font-semi);
 padding: 0px;
-margin-top: 1dvb;
-  width: 6rem;
+margin-top: 5dvb;
+  width: 10rem;
 }
 .nav-toggle {
   color: var(--second-color);
@@ -247,6 +247,9 @@ margin-top: 1dvb;
   right: 0;
   bottom: 0;
   width: 65%;
+  width: 39%;
+    max-width: 420px;
+    bottom: 15%;
 }
 
 /*BUTTONS*/
@@ -278,19 +281,16 @@ section.about {
 }
 .about-img {
   justify-self: center;
+  margin-top: -100px;
 }
 .about-img img {
+
   width: 200px;
-  border-radius: 0.5rem;
+  border-radius: 5rem;
   cursor: pointer;
 }
 
-.about-img img:hover {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-  transition: 1s ease;
-}
+
 
 
 /* ===== EDUCATION =====*/
@@ -541,16 +541,14 @@ img.man-icons {
     padding-bottom: 2.5rem;
     flex-direction: row;
     align-self: flex-end;
+    display: flex;
   }
   .home-social-icon {
     margin-bottom: 0;
     margin-right: var(--mb-4);
+    
   }
-  .home-img {
-    width: 39%;
-    max-width: 420px;
-    bottom: 15%;
-  }
+  
   .about-container {
     align-items: center;
     margin: auto;
@@ -578,6 +576,7 @@ img.man-icons {
   .contact-container {
     justify-items: center;
   }
+ 
 }
 
 @media screen and (min-width: 1024px) {
@@ -587,5 +586,28 @@ img.man-icons {
   }
   .home-img {
     right: 10%;
+   
   }
 }
+@media  screen and (max-width: 780px){
+  .home-img {
+    
+    display: none;
+  }
+
+  .education-platform{
+    margin: 6px;
+    display: flex;
+      
+     font-size: 16px;
+     cursor: pointer;
+    }
+    .home-social {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+    }
+} 
+  
+
+
