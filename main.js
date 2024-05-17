@@ -104,4 +104,10 @@ const showMenu = (toggleId, navId) => {
   
   
     window.addEventListener("load" , typewriter);
-  
+    var ractive = new Ractive({
+      el: '#container',
+      template: '#template',
+      data: {}
+    });
+    
+    
