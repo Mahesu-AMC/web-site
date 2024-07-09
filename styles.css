@@ -281,12 +281,13 @@ section.about {
 }
 .about-img {
   justify-self: center;
-  margin-top: -100px;
+  margin-top: -50px;
+  padding-right: 50px;
 }
 .about-img img {
 
   width: 200px;
-  border-radius: 5rem;
+  border-radius: 50rem;
   cursor: pointer;
 }
 
@@ -564,7 +565,7 @@ img.man-icons {
     text-align: initial;
   }
   .about-img img {
-    width: 300px;
+    width: 250px;
   }
   .project-container {
     grid-template-columns: repeat(2, 1fr);
