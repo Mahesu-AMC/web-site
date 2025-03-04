@@ -8,6 +8,10 @@ body {
   transform: translateY(-50%);
   width: 100%;
 }
+.Eos{
+  
+  padding-left: 10em;
+}
 .flip-card {
   border-radius: 0.5em;
   position: fixed;
